@@ -3,7 +3,7 @@ document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 if (window.innerWidth > 1500) {
   var img = new Image();
-  img.src = './assests/img/bg-desk.jpg';
+  img.src = './assets/img/bg-desk.jpg';
 
   var int = setInterval(function () {
     if (img.complete) {
@@ -15,7 +15,7 @@ if (window.innerWidth > 1500) {
   }, 50);
 } else if (window.innerWidth > 951) {
   var img = new Image();
-  img.src = './assests/img/bg-laptop.jpg';
+  img.src = './assets/img/bg-laptop.jpg';
 
   var int = setInterval(function () {
     if (img.complete) {
@@ -27,7 +27,7 @@ if (window.innerWidth > 1500) {
   }, 50);
 } else if (window.innerWidth > 480) {
   var img = new Image();
-  img.src = './assests/img/bg-tablet.jpg';
+  img.src = './assets/img/bg-tablet.jpg';
 
   var int = setInterval(function () {
     if (img.complete) {
@@ -39,7 +39,7 @@ if (window.innerWidth > 1500) {
   }, 50);
 } else {
   var img = new Image();
-  img.src = './assests/img/bg-mobile.jpg';
+  img.src = './assets/img/bg-mobile.jpg';
 
   var int = setInterval(function () {
     if (img.complete) {
